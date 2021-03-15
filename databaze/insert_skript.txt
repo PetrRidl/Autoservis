@@ -1,0 +1,69 @@
+Automobily
+
+INSERT INTO automobily(`registracni_znacka`, `vyrobce`, `typ_vozu`, `rok_vyroby`, `obsah_motoru`, `prevodovka`) 
+VALUES
+('MRBS 420', 'Škoda', 'kombi', '2002', '2000', 'manuál'),
+('MRBS 421', 'Tatra', 'náklaďák', '1989', '10000', 'manuál'),
+('MRBS 422', 'Ford', 'kombi', '2012', '1800', 'automat'),
+('MRBS 423', 'Orel', 'sedan', '2005', '2200', 'manuál'),
+('MRBS 424', 'Lada', 'sedan', '1960', '1200', 'manuál'),
+('MRBS 425', 'Chevrolet', 'sedan', '2015', '4800', 'manuál'),
+('MRBS 69', 'Zetor', 'traktor', '1990', '5000', 'manuál'),
+('N|GGER', 'Cadillac', 'kombi', '2018', '3600', 'manuál'),
+('123', 'Ferrari', 'sedan', '2004', '4000', 'automat'),
+('NVM Šéfe', 'Škoda', 'kombi', '1975', '1800', 'manuál'),
+('MRBS 123', 'Tatra', '148', '1980', '8000', 'manuál'),
+
+Majitelé
+
+INSERT INTO majitele(`jmeno`, `prijmeni`, `adresa`, `telefon`, `email`, `automobily_idautomobily`)
+VALUES
+('Peťa', 'Rídl', 'Ze Starého Města', '123456789', 'Peťův@mail.frajer', '2'),
+('Jindra', 'František', 'Františka Palackého 8', '234567891', 'Fratisek@seznam.cz', '1'),
+('Ondřej', 'Blaha', 'tajné', '123467898', 'Blaha@seznam.cz', '5'),
+('Veronika', 'Nováková', 'Kostelany třeba', '547896321', 'Nováková@seznam.cz', '3'),
+('Labu', 'Žníkanalový', 'Kunda', '887561249', 'labuznik@senzam.cz', '10'),
+('Domácník', 'Simpůvsyn', 'Jarnípole', '548796123', 'simp@son.cz', '6'),
+('Bob', 'Houbový', 'Ananas na dně moří 37', '666 666 666', 'bob@sponge.cz', '7'),
+('Patrik', 'Hvězdice', 'Kámen na dně moří 39', '123 123 123', 'nemam@email:C', '8'),
+('Petr', 'Gryf', 'Quoprase', '100011000', 'Petr@seznam.cz', '9'),
+('Petr', 'Rídl', 'Velký Borcov U Staráku', '646 844 608', 'Peťa@Peťa.Peťa', '11'),
+('Frodo', 'Pytlík', 'Kraj', '56', 'Pytlík@gmail.com', '4')
+
+Náhradní díly
+
+INSERT INTO nahradni_dily(`nazev`, `cena`, `sklad`)
+VALUES
+('Baterie', '3000', '8'),
+('Náhradní čundr', '5000', '20'),
+('Volant', '1000', '10'),
+('kolo', '1250', '100'),
+('Vonný stromek', '25', '1000'),
+('převodovka', '8000', '10'),
+('Kufr', '5000', '5'),
+('Sedadlo', '2500', '3'),
+
+Zaměstnanci
+
+INSERT INTO zamestnanci(`jmeno`, `prijmeni`)
+VALUES
+('Pepa', 'Slavík'),
+('František', 'Smutný'),
+('Vojta', 'Šťastný'),
+('Pavel', 'Zakopal'),
+
+Opravy
+
+INSERT INTO opravy(`automobily_idautomobily`, `nahradni_dily_iddilu`, `zamestananci_osobnicislo`)
+VALUES
+('1', '2', '6'),
+('2', '2', '5'),
+('3', '5', '3'),
+('4', '5', '4'),
+('5', '3', '6'),
+('6', '1', '5'),
+('7', '6', '3'),
+('8', '8', '4'),
+('9', '7', '5'),
+('10', '1', '6'),
+('11', '7', '3'),
