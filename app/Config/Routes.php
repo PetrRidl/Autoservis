@@ -18,11 +18,11 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php'))
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('MujController');
-$routes->setDefaultMethod('hlavni_strana');
+$routes->setDefaultController('home');
+$routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
-$routes->setAutoRoute(false);
+$routes->setAutoRoute(true);
 
 /*
  * --------------------------------------------------------------------
@@ -32,7 +32,17 @@ $routes->setAutoRoute(false);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'MujController::hlavni_strana');
+$routes->get('/', 'HlavniStrana::index');
+
+
+
+$routes->group('auth', ['namespace' => 'IonAuth\Controllers'], function ($routes) {
+    $routes->get('/', 'Auth::index');
+    $routes->add('login', 'Auth::login');
+    $routes->get('logout', 'Auth::logout');
+    $routes->get('create_user', 'Auth::create_user');
+    $routes->get('forgot_password', 'Auth::forgot_password');
+});
 
 /*
  * --------------------------------------------------------------------
