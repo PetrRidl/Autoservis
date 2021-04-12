@@ -3,7 +3,7 @@
     float: center;
     width: 98%;
     height: 85%;
-    margin-left: 40%;
+    margin-left: 10%;
     
 }
 button{
@@ -17,8 +17,9 @@ button{
     
 }
 </style>
+</br>
 <div class="obsah">
-<form method="post" action='<?php base_url(); ?>/HlavniStrana/zapis'>
+<form method="post" action='<?php base_url();?>zapisObjednavky'>
     <div class="form-group">
         <label>Výrobce vozu</label>
         <input type="text" name='vyrobce' class="form-control">
@@ -32,6 +33,8 @@ button{
         <input type="text" name='obsah_motoru' class="form-control">
         <label>Převodovka</label>
         <input type="text" name='prevodovka' class="form-control">
+        </br>
         <button type="submit">Závazně objednat</button>
     </div>
 </form>
+</div>

@@ -4,12 +4,14 @@ use App\Models\Hlavni_model;
 use App\Models\Model_zamestnanci;
 use App\Models\Model_dily;
 use App\Models\Model_zakaznici;
+
 use Codeigniter\Controller;
 
 
 
 class HlavniStrana extends BaseController
 {
+	
 
 	public function index()
 	{
@@ -60,28 +62,74 @@ class HlavniStrana extends BaseController
 		echo view('pages/zakaznici', $data);
 		echo view('templates/footer');
 	}
-	public function zapis()
+
+	public function zapisObjednavky()
 	{
 		$data = ['vyrobce' => $this->request->getVar('vyrobce'),
-				'typ_vozu' => $this->request->getVar('typ_vozu'),
-				'registracni_znacka' => $this->request->getVar('registranci_znacka'),
-				'rok_vyroby' => $this->request->getVar('rok_vyroby'),
-				'obsah_motoru' => $this->request->getVar('obsah_motoru'),
-				'prevodovka' => $this->request->getVar('prevodovka')];
-				$model = new Hlavni_model();
-				$model->insert($data);
+		'typ_vozu' => $this->request->getVar('typ_vozu'),
+		'registracni_znacka' => $this->request->getVar('registracni_znacka'),
+		'rok_vyroby' => $this->request->getVar('rok_vyroby'),
+		'obsah_motoru' => $this->request->getVar('obsah_motoru'),
+		'prevodovka' => $this->request->getVar('prevodovka')];
+		$model = new Hlavni_model();
+		$model->insert($data);
 
-			echo view('templates/header_user');
-			echo view('pages/polozka');
-			echo view('templates/footer');
-	
-	
-
+		echo view('templates/header_admin');
+		echo view('pages/polozka');
+		echo view('templates/footer');
 	}
-	public function form()
+	public function formObjednavka()
 	{
-		echo view('templates/header_user');
+		echo view('templates/header_admin');
 		echo view('pages/objednavka');
-		echo view('footer');
+		echo view('templates/footer');
 	}
+	public function formZamestnanec()
+	{
+		echo view('templates/header_admin');
+		echo view('pages/zapisZamestnanci');
+		echo view('templates/footer');
+	}
+	public function zapisZamestnanci()
+	{
+		$data = ['jmeno' => $this->request->getVar('jmeno'),
+		'prijmeni' => $this->request->getVar('prijmeni')];
+		$model = new Model_zamestnanci();
+		$model->insert($data);
+
+		echo view('templates/header_admin');
+		echo view('pages/polozka');
+		echo view('templates/footer');		
+	}
+	public function vypisOprav($auto)
+	{
+		$model = new Model_query();
+		
+		$data['oprava'] = $model->opravy($auto);
+
+		echo view('templates/header_admin');
+		echo view('pages/opravy', $data);
+		echo view('templates/footer');
+	}
+	public function formZakaznik()
+	{
+		echo view('templates/header_admin');
+		echo view('pages/novy_zakaznik');
+		echo view('templates/footer');
+	}
+	public function zapisZakaznici()
+	{
+		$data = ['jmeno' => $this->request->getVar('jmeno'),
+		'prijmeni' => $this->request->getVar('prijmeni'),
+		'adresa' => $this->request->getVar('adresa'),
+		'telefon' => $this->request->getVar('telefon'),
+		'email' => $this->request->getVar('email')];
+		$model = new Model_zakaznici();
+		$model->insert($data);
+
+		echo view('templates/header_admin');
+		echo view('pages/polozka');
+		echo view('templates/footer');		
+	}
+
 }

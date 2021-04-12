@@ -17,7 +17,7 @@ li{
     text-align: center;
     
     padding: 15px 32px;
-    margin-left: 70%;
+    margin-left: 60%;
     display: inline-block;
 }
 .negr{
@@ -30,25 +30,41 @@ a:hover {
 a {
     text-decoration: none;
     color: white;
+    display: inline-block;
+}
+.uprava{
+    color: white;
+    display: inline-block;
+    margin-left: 20%;
 }
 </style>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
-        <a class="navbar-brand negr" href="<?php echo base_url();?>/Hlavnistrana">Autoservis Rídl</a>
+        <a class="navbar-brand negr" href="<?php echo base_url();?>/Hlavnistrana"><h5>Autoservis Rídl</h5></a>
         <div id="my-nav" class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="<?php echo base_url()?>/HlavniStrana/vypisAut">Auta k opravě</a>
+                    <a class="nav-link" href="<?php echo base_url()?>/HlavniStrana/vypisAut"><div class="uprava">Auta k opravě</div></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="<?php echo base_url()?>/HlavniStrana/vypisZamestnancu">Zaměstnanci</a>
+                    <a class="nav-link" href="<?php echo base_url()?>/HlavniStrana/vypisZamestnancu"><div class="uprava">Zaměstnanci</div></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="<?php echo base_url()?>/HlavniStrana/vypisDilu">Díly na skladě</a>
+                    <a class="nav-link" href="<?php echo base_url()?>/HlavniStrana/vypisDilu"><div class="uprava">Náhradní Díly</div></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="<?php echo base_url()?>/HlavniStrana/vypisZakazniku">Zákaznicí</a>
+                    <a class="nav-link" href="<?php echo base_url()?>/HlavniStrana/vypisZakazniku"><div class="uprava">Zákazníci</div></a>
                 </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="<?php echo base_url()?>/HlavniStrana/formObjednavka"><div class="uprava">Objednávka</div></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="<?php echo base_url()?>/HlavniStrana/formZamestnanec"><div class="uprava">Nový Zaměstnanec</div></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="<?php echo base_url()?>/HlavniStrana/formZakaznik"><div class="uprava">Nový Zákazník</div></a>
+                </li>
+
 
             </ul>
             

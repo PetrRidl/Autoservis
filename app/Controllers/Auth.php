@@ -538,7 +538,7 @@ class Auth extends \CodeIgniter\Controller
 
 		if ($this->ionAuth->loggedIn() || $this->ionAuth->isAdmin())
 		{
-			return redirect()->to('/auth');
+			return redirect()->to('/');
 		}
 
 		$tables                        = $this->configIonAuth->tables;
@@ -580,7 +580,7 @@ class Auth extends \CodeIgniter\Controller
 			// check to see if we are creating the user
 			// redirect them back to the admin page
 			$this->session->setFlashdata('message', $this->ionAuth->messages());
-			return redirect()->to('');
+			return redirect()->to('HlavniStrana');
 		}
 		else
 		{

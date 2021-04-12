@@ -5,7 +5,9 @@
     height: 85%;
     
 }
-
+a{
+  color: #dc3545;
+}
 </style>
 <div class="container obsah">
   <table class="table">
@@ -22,8 +24,9 @@
   <tbody>
      <?php foreach($auta as $a): ?>
       <tr>
-            <td>
-              <?php echo $a['vyrobce'];?>       
+            <td><a href="<?php echo base_url()?>/HlavniStrana/vypisOprav/<?php echo $a['idautomobily']?>">
+              <?php echo $a['vyrobce'];?> 
+              </a>      
             </td>
             <td> 
                 <?php echo $a['registracni_znacka']; ?>

@@ -1,0 +1,1 @@
+SELECT * FROM `nahradni_dily` INNER JOIN `opravy` ON nahradni_dily.iddilu=opravy.nahradni_dily_iddilu WHERE opravy.automobily_idautomobily = 1
