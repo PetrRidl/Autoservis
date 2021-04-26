@@ -1,0 +1,261 @@
+CRITICAL - 2021-03-25 10:38:04 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 10:38:47 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 10:38:48 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 10:38:57 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 10:39:06 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 10:39:06 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 10:39:07 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 10:39:07 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 10:40:19 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 10:40:34 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 11:00:08 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 11:00:26 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 11:00:27 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 11:00:34 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 11:03:40 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 11:04:47 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 11:04:47 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 11:04:48 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 11:04:48 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 11:05:05 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 11:05:05 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 11:05:06 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 11:07:21 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 11:07:22 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 11:07:30 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 11:10:15 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 11:10:16 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 11:10:17 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-25 11:10:18 --> Invalid file: hlavni_strana.php
+#0 C:\xampp\htdocs\autoservis\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hlavni_strana.p...')
+#1 C:\xampp\htdocs\autoservis\system\Common.php(1217): CodeIgniter\View\View->render('hlavni_strana', Array, true)
+#2 C:\xampp\htdocs\autoservis\app\Controllers\HlavniStrana.php(11): view('hlavni_strana')
+#3 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(936): App\Controllers\HlavniStrana->index()
+#4 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HlavniStrana))
+#5 C:\xampp\htdocs\autoservis\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\autoservis\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
